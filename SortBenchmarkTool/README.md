@@ -6,7 +6,6 @@ miteinander vergleicht und deren Laufzeiten empirisch misst.
 ## Features
 - Median-of-Three Pivot Optimierung
 - Tail Recursion Elimination
-- Hybrid Switch (QuickSort → InsertionSort)
 - Empirische Profilierung mit `System.nanoTime()`
 
 ## Technologien
