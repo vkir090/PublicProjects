@@ -1,16 +1,34 @@
+/**
+ * =============================================
+ *  Class: QuickSort
+ *  Project: SortBenchmarkTool / Sorting Algorithms
+ *  Author: Vladimir K. (@vkir090)
+ *  Date:   2025-10-17
+ * =============================================
+ *
+ * Description:
+ * Implementation of the QuickSort algorithm using
+ * the divide-and-conquer paradigm. The array is
+ * partitioned around a pivot element:
+ *  - Elements smaller than the pivot go to the left,
+ *  - Elements greater than the pivot go to the right.
+ * The algorithm then recursively sorts the sub-arrays.
+ *
+ * Key Concepts:
+ * - Divide and Conquer
+ * - Recursion and pointer movement
+ * - Runtime behavior and pivot selection
+ *
+ * Example:
+ * int[] arr = {8, 3, 5, 2, 9, 1, 4, 7, 6};
+ * QuickSort.quickSort(arr, 0, arr.length - 1);
+ *
+ * License:
+ * MIT License – free for educational and commercial use.
+ */
+
 import java.util.Arrays;
 
-/**
- * QuickSort – Eigenimplementierung
- *
- * Beschreibung:
- * Dieses Programm sortiert ein Integer-Array mit dem QuickSort-Algorithmus.
- * Es verwendet das Divide-and-Conquer-Prinzip:
- *  - Das Array wird in zwei Teilbereiche geteilt,
- *  - Elemente kleiner als das Pivot kommen nach links,
- *  - größere nach rechts.
- * Danach wird der Vorgang rekursiv auf die Teilbereiche angewendet.
-  */
 public class QuickSort {
 
     public static void main(String[] args) {
