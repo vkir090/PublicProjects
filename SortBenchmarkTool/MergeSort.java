@@ -1,18 +1,32 @@
+/**
+ * =============================================
+ *  Class: MergeSort
+ *  Project: SortBenchmarkTool / Sorting Algorithms
+ *  Author: Vladimir K. (@vkir090)
+ *  Date:   2025-10-10
+ * =============================================
+ *
+ * Description:
+ * Implementation of the MergeSort algorithm based on
+ * the divide-and-conquer paradigm. The array is recursively
+ * divided into halves and merged back into a sorted sequence.
+ * Includes an optional runtime comparison with Arrays.sort().
+ *
+ * Key Concepts:
+ * - Recursion and divide-and-conquer thinking
+ * - Splitting and merging subarrays efficiently
+ * - Benchmarking against Java's built-in sorting
+ *
+ * Example:
+ * int[] arr = {8, 3, 5, 2, 9, 1, 4, 7, 6};
+ * int[] sorted = MergeSort.divide(arr);
+ *
+ * License:
+ * MIT License – free for educational and commercial use.
+ */
+
 import java.util.Arrays;
 
-/**
- * MergeSort – Implementierung auf Abi-Niveau (NRW)
- * 
- * Beschreibung:
- * Dieses Programm sortiert ein Integer-Array rekursiv
- * mit dem Merge-Sort-Verfahren und vergleicht anschließend
- * die Laufzeit mit Arrays.sort().
- * 
- * Lernziele:
- * - Verständnis von Rekursion
- * - Divide & Conquer Prinzip
- * - Vergleich zu Java-internen Sortiermethoden
- */
 public class MergeSort {
 
     public static void main(String[] args) {
